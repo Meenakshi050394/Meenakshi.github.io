@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <style>
+        .about-section {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .about-section h2 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+        }
+
+        .about-section img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 30px;
+        }
+
+        .about-section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .card-img-top {
+            width: 350px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        /* Circular button style */
+        .btn-circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+        }
+
+        /* Sticky Navigation Bar */
+        .sticky-top {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 1030;
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- About Section -->
+    <section id ="about" class="about-section">
+        <div class="container">
+            <h2>About</h2>
+            <img src="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\about\Meena.png" alt="Profile Picture">
+            <p>I strive to learn, practice & evolve as a complete modern Data Science professional. Aspiring to leverage a robust IT foundation and newly acquired data science 
+                skills to contribute effectively as a Data Scientist. Eager to join a dynamic organization where I can apply my analytical abilities and technical expertise to solve 
+                complex problems and drive data-driven decision-making.</p>
+            <p>Detail-oriented and highly motivated professional with a Bachelor of Science degree in Information Technology & enrollment in a comprehensive Data Science 
+                course from GUVI & IIT - Madras. Adept at leveraging a solid foundation in IT to gain proficiency in data analysis, machine learning, and statistical modeling. 
+                Possesses excellent problem-solving skills & a passion for deriving actionable insights from data.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Projects</h2>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\projects\banking_domain_1.jpeg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Bank Risk Controller System</h5>
+                            <p class="card-text">This project aims to develop a predictive model to determine the likelihood of customer default using historical data,whether a customer will default on a loan based on various features related to their credit history, personal information, and financial status.</p>
+                            <p class="card-text">Using Multiple Classification algorithm and choose the best one based on Accuracy, So on that I used <b>XGradiant Boosting algorithm, Accuracy : 98%.</b>  </p>
+                            <p class="card-text"><b>Domain:</b> Banking | <b>Technology used:</b> Python | Pandas | ML-Classification Algorithm | Scikit Learn | Streamlit </p>
+                            <p class="card-text">
+                                <a href="https://github.com/Meenakshi050394/Bank_Risk_Controller_System" class="btn btn-info" target="_blank">View on GitHub</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\projects\flat_price.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Singapore Resale Flat Price Prediction</h5>
+                            <p class="card-text">The objective of this project is to develop a machine learning model and deploy it as a user-friendly web application that predicts the resale prices of flats in Singapore. This predictive model will be based on historical data of resale flat transactions, and it aims to assist both potential buyers and sellers in estimating the resale value of a flat.</p>
+                            <p class="card-text">Using <b> Decision Tree Regressor, Accuracy : 87% </b></p>
+                            <p class="card-text"><b>Domain:</b> Real Estate | <b>Technology used:</b> Python | Pandas | ML-Regression Algorithm | Scikit Learn | Streamlit </p>
+                            <p class="card-text">
+                                <a href="https://github.com/Meenakshi050394/Singapore-resale-flat-price-prediction" class="btn btn-info" target="_blank">View on GitHub</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\projects\airbnb.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Airbnb Analysis and Visualization</h5>
+                            <p class="card-text">This project aims to analyze Airbnb data & perform data cleaning and preparation, develop interactive geospatial visualizations, and create dynamic plots to gain insights into pricing variations, availability patterns, and location-based trends in the Airbnb marketplace.</p>
+                            <p class="card-text"><b>Domain:</b>Travel Industry, Property Management and Tourism | <b> Technology used:</b> Python | MySQL | Github Cloning | Pandas | Plotly | Streamlit | PowerBI </p>
+                            <p class="card-text">
+                                <a href="https://github.com/Meenakshi050394/Airbnb" class="btn btn-info" target="_blank">View on GitHub</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Skills</h2>
+            <h4 class="text-center mb-5">Soft Skills</h4>
+            <div class="row text-center">
+                <!-- Soft Skill 1 -->
+                <div class="col-md-3">
+                    <img src="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\skills\adaptability.jpg" alt="Python" class="img-fluid mb-3" style="width: 100px;">
+                    <h4>Adaptability</h4>
+                    <p>The ability to quickly adjust to new situations, environments, or challenges.</p>
+                </div>
+                <!-- Soft Skill 2 -->
+                <div class="col-md-3">
+                    <img src="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\skills\teamwork_1.png" alt="Python" class="img-fluid mb-3" style="width: 100px;">
+                    <h4>Team Work</h4>
+                    <p>Working effectively with others to achieve a common goal, including sharing responsibilities and communicating well.</p>
+                </div>
+                <!-- Soft Skill 3 -->
+                <div class="col-md-3">
+                    <img src="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\skills\timemanagement.png" alt="Python" class="img-fluid mb-3" style="width: 100px;">
+                    <h4>Time Management</h4>
+                    <p>The skill of prioritizing tasks, managing time efficiently, and meeting deadlines.</p>
+                </div>
+
+                <h4 class="text-left mb-5">Hard Skills</h4>
+                <!-- Skill 1 -->
+                <div class="col-md-3">
+                    <img src="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\skills\python.png" alt="Python" class="img-fluid mb-3" style="width: 100px;">
+                    <h4>Python</h4>
+                    <p>With an intermediate proficiency in Python, I have developed a solid understanding of various programming concepts and libraries that enable me to build robust and efficient solutions.
+                        Experience included: Strong grasp of Python’s syntax and fundamental concepts, including data types, control structures, functions, and object-oriented programming.
+                    </p>
+                </div>
+                <!-- Skill 2 -->
+                <div class="col-md-3">
+                    <img src="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\skills\sql.png" alt="Python" class="img-fluid mb-3" style="width: 100px;">
+                    <h4>SQL</h4>
+                    <p>With an intermediate proficiency in SQL, I have developed a strong ability to manage, query, and manipulate relational databases effectively.Experience included: Proficient in SQL Queries,Database Design and Management,Data Manipulation and Integration with Programming Languages.</p>
+                </div>
+                <!-- Skill 3 -->
+                <div class="col-md-3">
+                    <img src="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\skills\data_visualization.png" alt="Data Visualization" class="img-fluid mb-3" style="width: 100px;">
+                    <h4>Data Visualization</h4>
+                    <p>With an intermediate proficiency in data visualization, I have leveraged various tools and libraries to create insightful and interactive visualizations that help in understanding and interpreting complex data.Experience included: My experience includes:Plotly,Matplotlib,Seaborn, and PowerBI.</p>
+                </div>
+                <!-- Skill 4 -->
+                <div class="col-md-3">
+                    <img src="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\skills\machineLearning.jpg" alt="Machine Learning" class="img-fluid mb-3" style="width: 100px;">
+                    <h4>Machine Learning</h4>
+                    <p>With an intermediate proficiency in machine learning, I have a solid foundation in applying various algorithms and techniques to build predictive models and solve data-driven problems.Experience included: I worked in Supervised Learning,Unsupervised Learning,Model Evaluation and Tuning,Feature Engineering, and Libraries and Frameworks like Sickit Learn.</p>
+                </div>
+                <!-- Skill 5 -->
+                <div class="col-md-3">
+                    <img src="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\skills\deepLearning.png" alt="Deep Learning" class="img-fluid mb-3" style="width: 100px;">
+                    <h4>Deep Learning</h4>
+                    <p>With an intermediate proficiency in deep learning, I have developed expertise in building and training neural networks to tackle complex problems in various domains.Experience included: Neural Network Architectures,Frameworks and Libraries,Transfer Learning,Model Training and Optimization, and Libraries and Frameworks like Tensorflow and Pytorch.</p>
+                </div>
+                <!-- Skill 6 -->
+                <div class="col-md-3">
+                    <img src="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\skills\NLP.png" alt="NLP" class="img-fluid mb-3" style="width: 100px;">
+                    <h4>NLP</h4>
+                    <p>With an intermediate proficiency in Natural Language Processing (NLP), I have developed the ability to work with textual data to perform a variety of tasks and extract meaningful insights.Experience included: Text Preprocessing,Feature Extraction,Language Models,Text Classification,Named Entity Recognition (NER) and Information Extraction, and Sequence-to-Sequence Models.</p>
+                </div>
+                <!-- Skill 7 -->
+                <div class="col-md-3">
+                    <img src="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\skills\streamlit.png" alt="Streamlit" class="img-fluid mb-3" style="width: 100px;">
+                    <h4>Streamlit</h4>
+                    <p>With an intermediate proficiency in Streamlit, I have developed the ability to create interactive and visually appealing web applications for data science and machine learning projects. My experience includes: App Development, Data Visualization, Widgets and Layouts, and Customization and Integration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Certification-->
+    <section id="certification" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Certification</h2>
+            <div class="row">
+                <!-- Certification 1 -->
+                <div class="col-md-2">
+                    <div class="card mb-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Certification by Guvi Geek Network Private Limited - Master Data Science Program</h5>
+                        <p class="card-text">
+                            <a href="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\certification\Meenakshi Hariharakrishnan   - 1723890302522 - GUVI.png" class="btn btn-info" target="_blank">View on Link</a></p>
+                    </div>
+                    </div>
+                </div>
+                <!-- Certification 2 -->
+                <div class="col-md-2">
+                    <div class="card mb-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Certification by IITM from GUVI - Certified Professional in Advanced Programming</h5>
+                        <p class="card-text">
+                            <a href="#" class="btn btn-info" target="_blank">View on Link</a></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Contact-->
+    <section id="contact" class="py-5 text-white" style="background-color: #333;">
+        <div class="container text-center">
+            <h4 class="display-4 mb-4">Contact Me</h4>
+            
+            <div class="row mb-4">
+                <div class="col-md-6 mb-3">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <i class="bi bi-envelope-fill" style="font-size: 2rem; margin-right: 10px;"></i>
+                        <span class="h5">meenakshi.sriram18@gmail.com</span>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <i class="bi bi-phone-fill" style="font-size: 2rem; margin-right: 10px;"></i>
+                        <span class="h5">+91 9962228985</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-center">
+                        <a href="https://www.linkedin.com/in/meenakshihariharakrishnan/" class="btn btn-circle mx-2" style="background-color: #281ae3;" data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn">
+                            <img src="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\Contact\linkedin.jpg" alt="LinkedIn" width="30" height="30">
+                        </a>
+                        <a href="https://github.com/Meenakshi050394" class="btn btn-circle mx-2" style="background-color: #3626e6;" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub">
+                            <img src="C:\Users\HP\Desktop\Data Scientist\my project\.venv\my Portfolio\image\Contact\github.png" alt="GitHub" width="30" height="30">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#home">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#certification">Certification</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+   
+    <!-- Bootstrap JS (before closing body tag) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
